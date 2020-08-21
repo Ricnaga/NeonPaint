@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Bangers&display=swap');
+
+:root{
+    --color-background: #f197e2;
+    --color-text-header: red;
+    --color-menu-link: #0270ee;
+    --color-container: #680332b7;
+    
+    font-size: 60%;
+}
+
+html, body{
+   width: 100vw;
+}
+
+body{
+    background: var(--color-background);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+header{
+    font: 1.3rem Orbitron;
+}
+
+div#logo{
+    background: url("../images/logo.jpg") no-repeat center;
+    background-size: cover;
+    width: 100%;
+}
+
+div#logo h1{
+    font-size: 3rem;
+    color: var(--color-text-header);
+}
+
+div.menu{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20rem;
+}
+
+div.menu img{
+    width: 3.5rem;
+}
+
+
+div.menu a{
+    padding: 1rem;
+    background-color: var(--color-menu-link);
+    border-radius: 2.9rem;
+    margin: 0 0.2rem 0 0.2rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    color: var(--color-text-header);
+}
+
+.container{
+    width: 50%;
+    margin: auto;
+
+    font: 2.3rem Bangers;
+    color: var(--color-container);
+    
+    text-align: justify;
+}
+
+#source{
+    margin: auto;
+    font: italic bold 2.5rem Bangers;
+    text-align: right;
+}
+#rodape{
+    font: 2rem Obitron;
+    color:  var(--color-container);
+}
+
+#rodape hr{
+    border: 0.1rem solid black;
+    margin: 2rem 0 1rem 0;
+}

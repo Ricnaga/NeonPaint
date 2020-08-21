@@ -1,0 +1,12 @@
+div#portfolio{
+    text-align: center;
+    margin: 2rem 0 2rem 0;
+}
+
+#portfolio img{
+    width: 35vw;
+}
+
+#portfolio h2{
+    margin: 3rem 0 0 0;
+}
