@@ -20,4 +20,13 @@ fieldset input{
     align-items: center;
     justify-content: center;
     margin:0 0 0.5rem 0;
+
+    width: 290px;
+    height: 2.8rem;
+
+    font: 2rem Bangers;    
+}
+
+small{
+    font-size: 1.5rem;
 }
