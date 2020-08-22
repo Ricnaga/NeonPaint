@@ -2,9 +2,10 @@
 
 :root{
     --color-background: #f197e2;
-    --color-text-header: #ff0000;
+    --color-text-header: red;
     --color-menu-link: #0270ee;
     --color-container: #680332b7;
+    --color-menu-link-hover: #0206ee;
     
     font-size: 60%;
 }
@@ -62,7 +63,14 @@ div.menu a{
     text-transform: uppercase;
 
     color: var(--color-text-header);
+    transition: background 0.4s;
+
 }
+
+div.menu a:hover{
+    background: var(--color-menu-link-hover);
+}
+
 
 .container{
     width: 50%;
@@ -88,4 +96,41 @@ footer{
 #rodape hr{
     border: 0.1rem solid black;
     margin: 2rem 0 1rem 0;
+}
+
+@media (max-width: 1024px){ /*de 0 até 1024px de resolução de tela, execute as ações dentro do @media*/
+    :root{
+        font-size: 40%;
+    }
+
+    header{
+        font: 0.9rem Orbitron;
+    }
+
+    div#logo{
+        height: 25vw;
+    }
+
+    div#logo h1{
+        font-size: 2rem;
+        text-align: start;
+    }
+
+    div.menu{
+        position: fixed;
+        
+        display: flex;
+        flex-direction: column;
+        right: 0;
+    }
+
+    div.menu a{
+       font-size: 0;
+       margin: 0 0 0.5rem 0;
+    }
+
+    .container{
+        width: 75vw;
+    }
+
 }

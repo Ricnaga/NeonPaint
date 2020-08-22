@@ -10,3 +10,9 @@ div#portfolio{
 #portfolio h2{
     margin: 3rem 0 0 0;
 }
+
+@media (max-width: 1024px){
+    #portfolio img{
+    width: 75vw;
+    }
+}
