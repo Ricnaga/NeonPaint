@@ -2,7 +2,7 @@
 
 :root{
     --color-background: #f197e2;
-    --color-text-header: red;
+    --color-text-header: #ff0000;
     --color-menu-link: #0270ee;
     --color-container: #680332b7;
     
@@ -78,7 +78,11 @@ div.menu a{
     margin: auto;
     font: italic bold 2.5rem Bangers;
     text-align: end;
+}
 
+footer{
+    font: 1.3rem Orbitron;
+    color: var(--color-text-header);
 }
 
 #rodape hr{
