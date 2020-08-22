@@ -77,11 +77,8 @@ div.menu a{
 #source{
     margin: auto;
     font: italic bold 2.5rem Bangers;
-    text-align: right;
-}
-#rodape{
-    font: 2rem Obitron;
-    color:  var(--color-container);
+    text-align: end;
+
 }
 
 #rodape hr{
