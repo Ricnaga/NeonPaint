@@ -12,6 +12,8 @@
   <li>Git</li>
 </ul></h2>
 
+<h1 align="center">Sumário</h1>
+
 <ul>
     <li><a href="#1">index.html</a></li>
     <li><a href="#1.1">index.css</a></li>
