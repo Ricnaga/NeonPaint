@@ -13,6 +13,7 @@
 Antes de começar é necessário instalar algumas ferramentas, tais como um editor de códigos para realizar compilação dos mesmos. Os códigos desse repositório foi utilizado o [Visual Studio Code](https://code.visualstudio.com/)
 
 ## <div align="center">Executando os arquivos<div>
+Clone este repositório: git clone <https://github.com/Ricnaga/NeonPaint> \
 Clique no arquivo index.html com o direito do mouse > revele arquivo no explorador e execute o mesmo. 
 
 ## <div align="center">Tecnologias utilizadas<div>
