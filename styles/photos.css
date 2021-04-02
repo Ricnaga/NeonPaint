@@ -1,11 +1,8 @@
-div.container img{
-    margin: 1rem 0 1rem 0;
-    width: 50vw;
+.content h2{
+    line-height: 5rem;
 }
 
-@media (max-width: 1024px){
-    div.container img{
-        width: 75vw;
-        margin: 2rem 0 2rem 0;
-    }
+.content img{
+    margin: 1rem 0 1rem 0;
+    width: 100%;
 }

@@ -1,6 +1,7 @@
-.container{
+.content{
     text-align: center;
     width: 100vw;
+    height: 60vh;
 }
 
 address{
@@ -8,12 +9,19 @@ address{
 }
 
 @media(max-width:1024px){
-    .container{
-        width: 75vw;
+    .content{
+        width: 70vw;
+    }
+    .content h1{
+        font-size: 4rem;
+    }
+
+    .content h2{
+        font-size: 2.8rem;
     }
 
     address{
-        margin: 4rem 4rem;
+        margin: 1rem auto;
     }
 
 }

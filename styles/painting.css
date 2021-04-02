@@ -1,18 +1,25 @@
-div#portfolio{
+.content {
+    margin: 3rem auto;
+}
+
+.content h2{
+    line-height: 5rem;
+}
+
+.content p{
+    font-size: 2.6rem;
+}
+
+.portfolio{
     text-align: center;
     margin: 2rem 0 2rem 0;
 }
 
-#portfolio img{
-    width: 35vw;
+.portfolio img{
+    width: 100%;
+    border-radius: 0.6rem;
 }
 
-#portfolio h2{
-    margin: 3rem 0 0 0;
-}
-
-@media (max-width: 1024px){
-    #portfolio img{
-    width: 75vw;
-    }
+.portfolio figcaption{
+    margin: 0.6rem auto 2rem;
 }

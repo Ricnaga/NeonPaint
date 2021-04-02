@@ -2,20 +2,20 @@
 
 :root{
     --color-background: #f197e2;
-    --color-text-header: red;
-    --color-menu-link: #0270ee;
-    --color-container: #680332b7;
-    --color-menu-link-hover: #0206ee;
+    --menu-link: #0270ee;
+    --color-container: #a5185a;
+    --menu-link-hover: #0206ee;
     
     font-size: 60%;
 }
 
-html, body{
-   width: 100vw;
+html{
+    font: 1.4rem Orbitron;    
 }
 
 body{
     background: var(--color-background);
+    width: 100vw;
 }
 
 * {
@@ -25,80 +25,119 @@ body{
 }
 
 header{
-    font: 1.3rem Orbitron;
-}
-
-div#logo{
-    background: url("../images/logo.jpg") no-repeat center;
+    background: url("../assets/logo.jpg") no-repeat center;
     background-size: cover;
     width: 100%;
-}
+    height: 30vh;
 
-div#logo h1{
-    font-size: 3rem;
-    color: var(--color-text-header);
-}
-
-div.menu{
     display: flex;
-    justify-content: flex-end;
-    margin-top: 20rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
 
-div.menu img{
-    width: 3.5rem;
+header h1{
+    font-size: 3rem;
+    color: red;
 }
 
-
-div.menu a{
-    padding: 1rem;
-    background-color: var(--color-menu-link);
-    border-radius: 2.9rem;
-    margin: 0 0.2rem 0 0.2rem;
+.menu{
+    width: 100vw;
 
     display: flex;
     align-items: center;
+    justify-content: flex-end;
+
+}
+.menu a{
+    display: flex;
+    align-items: center;
     justify-content: center;
+
+    border-radius: 3rem;
+
+    background-color: var(--menu-link);
+
+    padding: 1rem;
+    margin: 1rem;
+
     text-decoration: none;
     text-transform: uppercase;
+    color: red;
 
-    color: var(--color-text-header);
     transition: background 0.4s;
-
 }
 
-div.menu a:hover{
-    background: var(--color-menu-link-hover);
+.menu a:last-child{
+    margin-right: 2.4rem;
 }
 
+.menu a:hover{
+    background: var(--menu-link-hover);
+}
 
-.container{
-    width: 50%;
+.content{
+    width: 70vw;
     margin: auto;
 
     font: 2.3rem Bangers;
-    color: var(--color-container);
-    
     text-align: justify;
+    color: var(--color-container);
 }
 
-#source{
-    margin: auto;
+.content h1{
+    font-size: 6rem;
+    margin: 3rem auto;
+}
+
+.content h3{
+    font-size: 3rem;
+    margin: 1rem auto;
+}
+
+.content p{
+    font-size: 2rem;
+    line-height: 3rem;
+}
+
+.source{
+    margin: 1.6rem auto;
     font: italic bold 2.5rem Bangers;
+}
+
+.source p{
     text-align: end;
+}
+
+.source a{
+    text-decoration: none;
+    font-weight: 400;
+    color: var(--menu-link);
+}
+
+.source a:hover{
+    color: var(--menu-link-hover);
+}
+
+hr{
+    border: 0.1rem solid black;
 }
 
 footer{
     font: 1.3rem Orbitron;
-    color: var(--color-text-header);
+    color: red;
+    margin: 1rem auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
 
-#rodape hr{
-    border: 0.1rem solid black;
-    margin: 2rem 0 1rem 0;
+footer p{
+    margin-right: 1rem;
 }
 
-@media (max-width: 1024px){ /*de 0 até 1024px de resolução de tela, execute as ações dentro do @media*/
+@media (max-width: 1024px){ 
     :root{
         font-size: 40%;
     }
@@ -107,30 +146,33 @@ footer{
         font: 0.9rem Orbitron;
     }
 
-    div#logo{
-        height: 25vw;
+    header h1{
+        font-size: 4rem;
     }
-
-    div#logo h1{
-        font-size: 2rem;
-        text-align: start;
-    }
-
-    div.menu{
+    
+    .menu{
+        width: 16vw;
+        height: 80vh;
         position: fixed;
-        
-        display: flex;
         flex-direction: column;
         right: 0;
+        top: 0;
     }
 
-    div.menu a{
+    .menu a{
        font-size: 0;
-       margin: 0 0 0.5rem 0;
     }
 
-    .container{
-        width: 75vw;
+    .menu a:last-child{
+        margin-right: 1rem;
     }
 
+    .content p{
+        line-height: 3.6rem;
+    }
+
+    footer p{
+       text-align: center;
+       font-size: 1.8rem;
+    }
 }

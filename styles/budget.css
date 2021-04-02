@@ -1,4 +1,10 @@
-.container {
+.content h2{
+    line-height: 5rem;
+    text-align: center;
+}
+
+
+.content {
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -6,7 +12,7 @@
     align-items: center;
 }
 
-.container p{
+.content p{
     margin-bottom: 2rem;
     text-align: center;
 }
