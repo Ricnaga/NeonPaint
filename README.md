@@ -1,11 +1,14 @@
-# <div align="center"> Neon Pinturas </div>
+<img src="cover.jpg" alt="Capa"/>
+
+# <div align="center"> Pinturas Neon</div>
 ![GitHub](https://img.shields.io/github/license/Ricnaga/NeonPaint)
 #### <div align="right">- Projeto Finalizado <div>
 
 ### <div align="center"> Projeto HTML/CSS simulando um site de uma empresa fictícia de pinturas de Neon, tecnologias utilizadas: </div>
 
-#### 1. HTML
-#### 2. CSS
+- HTML
+- CSS
+- responsividade
 
 ## <div align="center"> Sumário </div>
 <!--ts-->
