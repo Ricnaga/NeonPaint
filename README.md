@@ -14,7 +14,6 @@
 <!--ts-->
    - [Requisitos](#<div-align="center">Requisitos</div>)
    - [Tecnologias utilizadas](#<div-align="center">Tecnologias-utilizadas</div>)
-   - [Autor](#<div-align="center">Autor</div>)
 <!--te-->
 ## <div align="center">Requisitos</div>
 Para executar a aplicação é necessário instalar algumas ferramentas tais como um editor de códigos para realizar compilação dos mesmos. Nesse projeto foi utilizado o [Visual Studio Code](https://code.visualstudio.com/), [NodeJS](https://nodejs.org/en/) para compilação do código, [Git Bash](https://gitforwindows.org/) para baixar o repositório e baixar todas as dependências necessárias. 
